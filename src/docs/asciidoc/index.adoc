@@ -1,0 +1,26 @@
+***
+== MemberController
+=== 회원 목록 확인
+.curl-request
+include::{snippets}/getAllMembersWithPagination/curl-request.adoc[]
+
+
+
+.http-response
+include::{snippets}/getAllMembersWithPagination/http-response.adoc[]
+
+.response-fields
+include::{snippets}/getAllMembersWithPagination/response-fields.adoc[]
+
+=== 특정 회원 검색
+.curl-request
+include::{snippets}/findMemberTestWithPageSize/curl-request.adoc[]
+
+.request-fields
+
+
+.http-response
+include::{snippets}/findMemberTestWithPageSize/http-response.adoc[]
+
+.response-fields
+include::{snippets}/findMemberTestWithPageSize/response-fields.adoc[]
